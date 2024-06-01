@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/speedo_fragment">
+    <fragment
+        android:id="@+id/speedo_fragment"
+        android:name="com.example.networkspeedo.presentation.speedo.SpeedoFragment"
+        android:label="SpeedoFragment" >
+        <action
+            android:id="@+id/action_speedo_fragment_to_settings_fragment"
+            app:destination="@id/settings_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.example.networkspeedo.presentation.settings.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settings_fragment_to_speedo_fragment"
+            app:destination="@id/speedo_fragment" />
+    </fragment>
+</navigation>

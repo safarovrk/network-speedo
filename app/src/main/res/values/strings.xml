@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NetworkSpeedo</string>
+    <string name="measurement">Измерение</string>
+    <string name="settings">Настройки</string>
+    <string name="current_theme">Текущая тема приложения:</string>
+    <string name="current_url_speedtest_load">Текущий URL сервера Speedtest для загрузки:</string>
+    <string name="current_url_speedtest_upload">Текущий URL сервера Speedtest для отдачи:</string>
+    <string name="url">URL</string>
+    <string name="measure_load_speed">Измерять скорость загрузки</string>
+    <string name="measure_upload_speed">Измерять скорость отдачи</string>
+    <string name="save">Сохранить</string>
+    <string-array name="themeVariants">
+        <item>Системная</item>
+        <item>Тёмная</item>
+        <item>Светлая</item>
+    </string-array>
+    <string name="measure">Измерить</string>
+    <string name="load_speed">Скорость загрузки:</string>
+    <string name="empty_percents">- %</string>
+    <string name="full_percents">%1$s %%</string>
+    <string name="empty_mbites">- Мбит/с</string>
+    <string name="full_mbytes">%1$s Мбит/с</string>
+    <string name="measured_load_speed">Измеренная скорость загрузки:</string>
+    <string name="measured_upload_speed">Измеренная скорость отдачи:</string>
+    <string name="upload_speed">Скорость отдачи:</string>
+</resources>
